@@ -1,5 +1,8 @@
 'use strict';
 
+// Atomics.exchange(typedArray, index, value)
+// Atomics.compareExchange(typedArray, index, expectedValue, replacementValue)
+
 const buffer = new SharedArrayBuffer(40);
 
 const array = new Uint32Array(buffer);

@@ -1,5 +1,8 @@
 'use strict';
 
+// Atomics.wait(typedArray, index, value[, timeout])
+// Returns: 'ok' | 'not-equal' | 'timed-out'
+
 const buffer = new SharedArrayBuffer(40);
 
 const array = new Int32Array(buffer);
