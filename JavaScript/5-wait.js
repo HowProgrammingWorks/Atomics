@@ -16,10 +16,7 @@ console.dir({ w2 });
 
 setTimeout(() => {
   Atomics.store(array, 5, 222);
-  console.log(Atomics.notify(array, 5));
+  console.log(Atomics.notify(array, 5, 1));
 }, 2000);
-
-//const w3 = Atomics.wait(array, 5, 0);
-//console.dir({ w3 });
 
 console.dir({ array });
