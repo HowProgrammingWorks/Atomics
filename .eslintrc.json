@@ -10,7 +10,8 @@
   },
   "globals": {
     "SharedArrayBuffer": true,
-    "Atomics": true
+    "Atomics": true,
+    "BigInt": true
   },
   "rules": {
     "indent": [
@@ -218,7 +219,7 @@
     ],
     "arrow-body-style": [
       "error",
-      "always"
+      "as-needed"
     ],
     "arrow-spacing": [
       "error"
